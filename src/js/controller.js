@@ -25,6 +25,7 @@
 // made .gitignore file, where we want all those files which we want git to ignore
 // sheck using git status, then brought all files to staging area, or to track our files using git add -A
 // FINALLY COMMIT git commit -m 'Initial commit'
+// U CAN GO TO PREVIOUS COMMIT using git reset --hard HEAD
 import * as model from './model.js';
 import { MODAL_CLOSE_SEC } from './config.js';
 import recipeView from './views/recipeView.js';
