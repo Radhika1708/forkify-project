@@ -21,6 +21,10 @@
 // 20) deployment (first, we create final bundle using build command, before that deleted parcel-cache & dist folder inorder to get fresh start)
 // changed the build command to "build": "parcel build index.html --dist-dir ./dist",  --dist dir stands for distribution directory
 // go to netlify to deploy
+// git installed, start with git init, then git config --global user.name Radhika1708, then git config --global user.email radhikasoni.jpr@gmail.com
+// made .gitignore file, where we want all those files which we want git to ignore
+// sheck using git status, then brought all files to staging area, or to track our files using git add -A
+// FINALLY COMMIT git commit -m 'Initial commit'
 import * as model from './model.js';
 import { MODAL_CLOSE_SEC } from './config.js';
 import recipeView from './views/recipeView.js';
