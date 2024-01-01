@@ -26,6 +26,11 @@
 // sheck using git status, then brought all files to staging area, or to track our files using git add -A
 // FINALLY COMMIT git commit -m 'Initial commit'
 // U CAN GO TO PREVIOUS COMMIT using git reset --hard HEAD
+// git log will show history of all the commits that u did, write q for quit
+// for creating branch(since moving b/w commits is dangerous) - git branch (it will list all the branches u currently have & to close it u need to write q)
+// git branch new-feature (v=created new branch, main branch won't be affected)
+// git checkout new-feature (to switch to that branch)
+// we can merge changes of branch and main using (git merge (nameofbranch_that_we_want_to_merge_with_current_branch))
 import * as model from './model.js';
 import { MODAL_CLOSE_SEC } from './config.js';
 import recipeView from './views/recipeView.js';
